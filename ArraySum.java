@@ -8,5 +8,7 @@ public class ArraySum {
      sum +=i;
      System.out.println(" The sum is "+sum);
 	}
-
+	// calculate the average value
+	  double average = sum/Num_array.length;
+	     System.out.println("Average value of the array elemenmt is:"+average);
 }}
